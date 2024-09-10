@@ -1,5 +1,5 @@
 body {
-    color: red;
+    color: black;
     background-color: rgba(21, 20, 20, 0.5);
 }
 
@@ -29,8 +29,19 @@ li a:hover {
 }
 
 .smallBio {
+    margin: auto;
+    width: auto;
     color: whitesmoke;
-    text-align: justify;
+    text-align:center;
     font-weight: bold;
-    
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Headlines{
+    color: black;
+    margin: auto;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+
 }
