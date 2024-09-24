@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Title of the document</title>
-<link rel="stylesheet" href="styles.css" /></head>
-
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Gasper's Home</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 <body>
     <header>
         <nav class="navBar">
@@ -15,12 +16,37 @@
             </ul>
         </nav>
     </header>
-    <div class="smallBio">Trilingual college student at California State Univeristy Fullerton,
-    working towards a Bachelor's Degree in Computer Science, with the goal of pursuing the career path of a Game Designer.
-    Proficient with multiple computer programming languages, including Java, JavaScript, Python, and C++.</div>
-    <div class="Headlines">This header is gonna be used for "titles" of each section</div>
-    <img src="/img/discord32.png">
-
-    <button onclick="location.href = 'discord.com/users/250742326215966721';">Discord</button>
+    <section class="smallBio">Trilingual college student at California State Univeristy Fullerton,
+    working towards a Bachelor's Degree in Computer Science, with the goal of pursuing the career path of a Full Stack Developer.
+    Proficient with multiple computer programming languages, including Java, JavaScript, Python, and C++.
+    </section>
+    
+    <div class="Headlines">Projects</div>
+    
+    <!--<button onclick="location.href = 'https://discord.com/users/250742326215966721'" type="button">Discord</button>-->
+    
+    <section class="projects">
+        <img class="projectIMG" src="/img/BWLogo.png">
+        <div class="bioBW">BackTracker is an online web app designed to assist users in creating a savings account and manage income. Developed through Google's Firebase.  </div>
+    </section>
+    <section class="projects">
+        <img class="projectIMG" src="/img/data processor.png">
+        <div class="bioDP">Project is a data processing application that reads data from an input file, processes the data, removes excess space and comments from the code, tokenizes the remaining code, and prints the output in a tabular form.</div>
+    </section>
+    <section class="projects">  
+        <img class="projectIMG" src="/img/CR Chicken.png">
+        <div class="bioCR">Project is a clone of the classic game: Crossy Road!<br><br><br><br> Assets were created through the use of Blender and MagicaVoxel<br> The game was designed through Unreal Engine.</div>
+    </section>
+    <section class="projects">
+        <img class="projectIMG" src="/img/tetris1.jpg">
+        <div class="bioPT">Python implementation of the classic Tetris game using Pygame. It features customizable Tetris blocks, a scoring system, and keyboard arrow key controls for an engaging gameplay experience.</div>  
+    </section>
+    <div class="outro">
+        <img src="/img/discord48.png" onclick="location.href = 'https://discord.com/users/250742326215966721'">
+    </div>
+    
+    <footer>
+        <p>© 2024 GasperPls. All rights reserved.</p>
+    </footer>
   </body>
 </html>
