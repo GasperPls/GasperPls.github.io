@@ -56,14 +56,44 @@ li a:hover {
     font-size: 24px;
 }
 
+.projects:hover .overlayIMG {
+    opacity: 1;
+}
+
 .projectIMG {
     border: 5px solid black;
     width: 300px;
     margin: 10px 100px 50px 125px;
 }
 
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlayIMG {
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: black;
+}
+
 .outro {
     padding: 50px;
+    text-align: center;
 }
 
 footer{
@@ -71,8 +101,8 @@ footer{
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #333;
-	padding: 10px 0;
+	background-color: black;
+	padding: 10px;
 	color: white;
 	text-align: center;
 }
